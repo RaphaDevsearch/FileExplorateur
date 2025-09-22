@@ -55,6 +55,12 @@ li a:hover{
     background: var(--my-light);
     color: var(--bg-dark);   
 }
+
+li a.active{
+    background: var(--my-light);
+    color: var(--bg-dark); 
+    font-weight: bold;
+}
 .right{
     margin-left: 350px;
 }
